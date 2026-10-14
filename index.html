@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nandini Patil | Frontend Developer &amp; B.Tech CSE (Data Science)</title>
+  <meta name="description" content="Portfolio of Nandini Patil - 2nd Year B.Tech CSE (Data Science) Student &amp; Frontend Developer skilled in HTML, CSS, JavaScript. Creator of Disaster Management project." />
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Ambient Spotlight & Subtle Grid -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <div class="container nav-wrap">
+      <a href="#home" class="logo">
+        <span class="logo-bracket">&lt;</span><span class="logo-name">Nandini</span><span class="logo-accent">.dev</span><span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <nav class="nav" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta-box">
+        <a href="#contact" class="btn btn-outline nav-cta">Let's Connect</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. Home / Hero Section -->
+    <section class="section hero-section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text-col">
+          <div class="status-pill">
+            <span class="pulse-indicator"></span>
+            <span>2nd Year B.Tech CSE (Data Science) &bull; Frontend Developer</span>
+          </div>
+
+          <h1 class="hero-heading">
+            Hi, I'm <span class="gradient-purple">Nandini Patil</span>.<br />
+            Crafting clean, responsive web experiences.
+          </h1>
+
+          <p class="hero-bio">
+            I am a 2nd-year <strong class="text-white">B.Tech student in Computer Science &amp; Engineering (Data Science)</strong> with a strong passion for <span class="highlight-skill">Frontend Web Development</span>. I build intuitive, user-friendly interfaces using <span class="highlight-skill">HTML</span>, <span class="highlight-skill">CSS</span>, and <span class="highlight-skill">JavaScript</span>, turning practical ideas like my <strong class="text-white">Disaster Management</strong> portal into responsive digital realities.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-purple">
+              <span>View Disaster Management Project</span>
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            <a href="#contact" class="btn btn-glass">
+              <span>Get in Touch</span>
+              <i class="fa-regular fa-paper-plane"></i>
+            </a>
+          </div>
+
+          <!-- Social Links Strip -->
+          <div class="social-strip">
+            <span class="social-title">Connect:</span>
+            <a href="https://github.com/nandinipatil34" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub - nandinipatil34" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+              <span>nandinipatil34</span>
+            </a>
+            <a href="https://www.linkedin.com/in/nandini-patil" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn - Nandini Patil" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span>Nandini Patil</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Visual Code Window -->
+        <div class="hero-visual-col">
+          <div class="code-window">
+            <div class="window-header">
+              <div class="window-buttons">
+                <span class="win-btn red"></span>
+                <span class="win-btn yellow"></span>
+                <span class="win-btn green"></span>
+              </div>
+              <span class="window-title">nandini_profile.js</span>
+            </div>
+            <div class="code-content">
+              <pre><code><span class="c-keyword">const</span> <span class="c-obj">studentDeveloper</span> = {
+  <span class="c-prop">name</span>: <span class="c-str">'Nandini Patil'</span>,
+  <span class="c-prop">degree</span>: <span class="c-str">'B.Tech CSE (Data Science)'</span>,
+  <span class="c-prop">year</span>: <span class="c-str">'2nd Year'</span>,
+  <span class="c-prop">specialization</span>: <span class="c-str">'Frontend Web Development'</span>,
+  <span class="c-prop">github</span>: <span class="c-str">'nandinipatil34'</span>,
+  <span class="c-prop">coreSkills</span>: [
+    <span class="c-str">'HTML5'</span>,
+    <span class="c-str">'CSS3 (Flexbox/Grid)'</span>,
+    <span class="c-str">'JavaScript (ES6+)'</span>,
+    <span class="c-str">'Responsive Web Design'</span>
+  ],
+  <span class="c-prop">keyProject</span>: <span class="c-str">'Disaster Management System'</span>,
+  <span class="c-prop">openForInternships</span>: <span class="c-bool">true</span>
+};</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-badge-wrapper">
+          <span class="section-badge">About Me</span>
+        </div>
+        <h2 class="section-title">Academic Foundation &amp; Frontend Passion</h2>
+        <p class="section-subtitle">A dedicated student merging data-driven thinking with modern, user-centric web design.</p>
+
+        <div class="about-grid">
+          <div class="about-card primary-card">
+            <div class="card-icon-bubble">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <h3 class="card-title">My Journey</h3>
+            <p class="card-text">
+              I am currently pursuing my <strong>2nd year of B.Tech in Computer Science &amp; Engineering with a specialization in Data Science</strong>. While learning core computing concepts and analytical fundamentals, I developed a strong passion for frontend web development — because nothing beats the satisfaction of seeing your code transform into an engaging, interactive website.
+            </p>
+            <p class="card-text">
+              I believe in learning by building. That's why I created the <strong>Disaster Management</strong> project — to solve a real-world humanitarian challenge using accessible web technologies like HTML, CSS, and JavaScript. I focus on clean page structure, responsive styling for mobile devices, and seamless user interaction.
+            </p>
+            <div class="profile-chips">
+              <span class="chip"><i class="fa-solid fa-check"></i> 2nd Year B.Tech CSE (DS)</span>
+              <span class="chip"><i class="fa-solid fa-check"></i> Semantic HTML5</span>
+              <span class="chip"><i class="fa-solid fa-check"></i> Modern CSS3 &amp; Flexbox</span>
+              <span class="chip"><i class="fa-solid fa-check"></i> Vanilla JavaScript (ES6+)</span>
+            </div>
+          </div>
+
+          <div class="about-card">
+            <div class="card-icon-bubble">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <h3 class="card-title">What Drives Me</h3>
+            <ul class="values-list">
+              <li>
+                <div class="value-bullet">01</div>
+                <div>
+                  <strong>Impactful Problem Solving</strong>
+                  <p>Building web projects that solve real problems, like emergency coordination in disaster management.</p>
+                </div>
+              </li>
+              <li>
+                <div class="value-bullet">02</div>
+                <div>
+                  <strong>Pixel-Perfect &amp; Responsive</strong>
+                  <p>Ensuring websites look clean, readable, and well-structured across smartphones, tablets, and laptops.</p>
+                </div>
+              </li>
+              <li>
+                <div class="value-bullet">03</div>
+                <div>
+                  <strong>Continuous Learning</strong>
+                  <p>Expanding my technical skills everyday across JavaScript frameworks, data visualization, and modern UI practices.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-badge-wrapper">
+          <span class="section-badge">Technical Stack</span>
+        </div>
+        <h2 class="section-title">My Technical Skills</h2>
+        <p class="section-subtitle">Core web technologies I use to build responsive, accessible, and dynamic user interfaces.</p>
+
+        <div class="skills-grid">
+          <!-- Skill 1: HTML5 -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon html-color">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <span class="skill-tag">Structure</span>
+            </div>
+            <h3 class="skill-name">HTML5</h3>
+            <p class="skill-desc">Writing semantic, clean, and accessible markup that provides the backbone for web applications.</p>
+            <ul class="skill-points">
+              <li>Semantic Layout (`&lt;header&gt;`, `&lt;section&gt;`, `&lt;article&gt;`)</li>
+              <li>Interactive Forms &amp; Input Validation</li>
+              <li>Web Accessibility (a11y) &amp; SEO Standards</li>
+            </ul>
+          </div>
+
+          <!-- Skill 2: CSS3 -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon css-color">
+                <i class="fa-brands fa-css3-alt"></i>
+              </div>
+              <span class="skill-tag">Styling &amp; Design</span>
+            </div>
+            <h3 class="skill-name">CSS3 &amp; Responsive Design</h3>
+            <p class="skill-desc">Crafting modern, fluid layouts that adapt seamlessly to any device screen size.</p>
+            <ul class="skill-points">
+              <li>CSS Flexbox &amp; CSS Grid layouts</li>
+              <li>Media queries for mobile-first responsiveness</li>
+              <li>CSS custom properties (variables) &amp; Dark Theme</li>
+              <li>Smooth transitions, hover effects &amp; keyframes</li>
+            </ul>
+          </div>
+
+          <!-- Skill 3: JavaScript -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon js-color">
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <span class="skill-tag">Interactivity</span>
+            </div>
+            <h3 class="skill-name">JavaScript (ES6+)</h3>
+            <p class="skill-desc">Bringing web pages to life with client-side logic, DOM manipulation, and dynamic user events.</p>
+            <ul class="skill-points">
+              <li>DOM Manipulation &amp; Event Listeners</li>
+              <li>Form Handling &amp; Real-time Input Validation</li>
+              <li>LocalStorage for Client Data Persistence</li>
+              <li>Asynchronous Fetch API &amp; JSON Handling</li>
+            </ul>
+          </div>
+
+          <!-- Skill 4: Tools & CSE Foundations -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon git-color">
+                <i class="fa-brands fa-git-alt"></i>
+              </div>
+              <span class="skill-tag">Workflow &amp; Core</span>
+            </div>
+            <h3 class="skill-name">Git, GitHub &amp; CS Core</h3>
+            <p class="skill-desc">Version control, collaborative workflows, and computer science foundations from my degree.</p>
+            <ul class="skill-points">
+              <li>Git &amp; GitHub Profile (`nandinipatil34`)</li>
+              <li>VS Code, Chrome Developer Tools &amp; Debugging</li>
+              <li>Data Science &amp; Python fundamentals</li>
+              <li>Object-Oriented Programming (OOP) concepts</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-badge-wrapper">
+          <span class="section-badge">Featured Work</span>
+        </div>
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-subtitle">Showcasing practical engineering work, starting with my flagship Disaster Management web project.</p>
+
+        <div class="projects-grid">
+          <!-- Flagship Project: Disaster Management -->
+          <article class="project-card flagship-card">
+            <div class="project-header-bar">
+              <span class="proj-badge">⭐ Flagship Project</span>
+              <div class="proj-dots">
+                <span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Emergency System</span>
+                <span class="tech-tag">Responsive UI</span>
+              </div>
+              <h3 class="project-title">Disaster Management Portal</h3>
+              <p class="project-desc">
+                A comprehensive disaster management web application created to assist communities and emergency responders during natural calamities (such as floods, earthquakes, and cyclones). Provides instant access to emergency helplines, live status updates, incident reporting, and shelter resource coordination.
+              </p>
+              <ul class="project-highlights">
+                <li><i class="fa-solid fa-circle-check"></i> <strong>Emergency Helplines Directory:</strong> Quick one-tap access to national &amp; regional disaster response teams, ambulance, and police contacts.</li>
+                <li><i class="fa-solid fa-circle-check"></i> <strong>Incident Reporting Form:</strong> Interactive form for victims to report affected locations, severity, and urgent needs with client-side validation.</li>
+                <li><i class="fa-solid fa-circle-check"></i> <strong>Shelter &amp; Relief Filter:</strong> Dynamic search and filter to find open relief camps, food distribution points, and medical centers.</li>
+                <li><i class="fa-solid fa-circle-check"></i> <strong>Emergency Preparedness Guide:</strong> Offline-ready dos and don'ts guides for flood, earthquake, and fire safety.</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/nandinipatil34" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> GitHub (nandinipatil34)
+                </a>
+                <a href="#projects" class="btn btn-sm btn-purple preview-trigger" data-title="Disaster Management System" data-desc="A community-focused disaster management web portal built with HTML, CSS, and JavaScript. Designed to connect victims with rapid relief, emergency helplines, shelter coordinates, and volunteer support in critical times.">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Data Insights Dashboard -->
+          <article class="project-card">
+            <div class="project-header-bar">
+              <span class="proj-badge">CSE Data Science Project</span>
+              <div class="proj-dots">
+                <span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">CSS Grid</span>
+                <span class="tech-tag">DataViz</span>
+                <span class="tech-tag">HTML5</span>
+              </div>
+              <h3 class="project-title">DataViz - Interactive Analytics Explorer</h3>
+              <p class="project-desc">
+                Merging my Data Science coursework with frontend development: an interactive dashboard displaying visual data charts, metric summaries, and responsive data filters built with vanilla JavaScript.
+              </p>
+              <ul class="project-highlights">
+                <li><i class="fa-solid fa-circle-check"></i> Interactive bar charts and metrics cards calculated dynamically via JS.</li>
+                <li><i class="fa-solid fa-circle-check"></i> Dark-mode optimized charts with high-contrast visibility.</li>
+                <li><i class="fa-solid fa-circle-check"></i> Clean CSV summary parser and dataset preview table.</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/nandinipatil34" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> View Code
+                </a>
+                <a href="#projects" class="btn btn-sm btn-purple preview-trigger" data-title="DataViz - Interactive Analytics Explorer" data-desc="Interactive data visualization interface engineered with JavaScript and CSS Grid to present complex datasets in clear, readable graphs and metrics cards.">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Responsive Developer Portfolio -->
+          <article class="project-card">
+            <div class="project-header-bar">
+              <span class="proj-badge">Portfolio UI</span>
+              <div class="proj-dots">
+                <span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Glassmorphism</span>
+              </div>
+              <h3 class="project-title">Personal Developer Portfolio</h3>
+              <p class="project-desc">
+                A custom-built, modern personal portfolio engineered with a premium purple dark theme, smooth scrolling, mobile drawer menu, dynamic modals, and clean semantic architecture.
+              </p>
+              <ul class="project-highlights">
+                <li><i class="fa-solid fa-circle-check"></i> 100% hand-crafted with zero external dependencies or heavy frameworks.</li>
+                <li><i class="fa-solid fa-circle-check"></i> Seamless responsive breakpoints across mobile, tablet, and desktop.</li>
+                <li><i class="fa-solid fa-circle-check"></i> Interactive clipboard copy for email and modal details viewer.</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/nandinipatil34" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> View Code
+                </a>
+                <a href="#home" class="btn btn-sm btn-purple">
+                  <i class="fa-solid fa-arrow-up"></i> Live Here
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-badge-wrapper">
+          <span class="section-badge">Get in Touch</span>
+        </div>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">I'm open to frontend internships, student collaborations, and tech discussions. Feel free to reach out!</p>
+
+        <div class="contact-grid">
+          <!-- Contact Channels Info -->
+          <div class="contact-info-card">
+            <h3 class="contact-card-title">Nandini Patil</h3>
+            <p class="contact-card-subtitle">2nd Year B.Tech CSE (Data Science) &bull; Frontend Developer</p>
+            <p class="contact-card-text">
+              Whether you're looking for an enthusiastic frontend intern, want to collaborate on a college project, or want to discuss my Disaster Management web app, my inbox is open!
+            </p>
+
+            <div class="contact-methods">
+              <div class="method-item">
+                <div class="method-icon">
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <div>
+                  <span class="method-label">GitHub Profile</span>
+                  <a href="https://github.com/nandinipatil34" target="_blank" rel="noopener noreferrer" class="method-link">
+                    github.com/nandinipatil34
+                  </a>
+                </div>
+              </div>
+
+              <div class="method-item">
+                <div class="method-icon">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div>
+                  <span class="method-label">LinkedIn Profile</span>
+                  <a href="https://www.linkedin.com/in/nandini-patil" target="_blank" rel="noopener noreferrer" class="method-link">
+                    linkedin.com/in/nandini-patil
+                  </a>
+                </div>
+              </div>
+
+              <div class="method-item">
+                <div class="method-icon">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div>
+                  <span class="method-label">Email Address</span>
+                  <a href="mailto:nandinipatil@example.com" class="method-link" id="email-text">
+                    nandinipatil@example.com
+                  </a>
+                  <button type="button" class="copy-email-btn" id="copy-email-btn" title="Copy email address">
+                    <i class="fa-regular fa-copy"></i> Copy
+                  </button>
+                </div>
+              </div>
+
+              <div class="method-item">
+                <div class="method-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                  <span class="method-label">Current Status</span>
+                  <span class="method-text">Student &bull; India &bull; Open to Remote Internships</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card">
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="form-name">Your Name *</label>
+                <input type="text" id="form-name" name="name" required placeholder="e.g. Recruiter / Mentor Name" class="form-control" />
+              </div>
+
+              <div class="form-group">
+                <label for="form-email">Your Email *</label>
+                <input type="email" id="form-email" name="email" required placeholder="e.g. yourname@company.com" class="form-control" />
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject">Subject</label>
+                <input type="text" id="form-subject" name="subject" placeholder="Frontend Internship / Collaboration Opportunity" class="form-control" />
+              </div>
+
+              <div class="form-group">
+                <label for="form-message">Message *</label>
+                <textarea id="form-message" name="message" rows="5" required placeholder="Hi Nandini, I checked out your Disaster Management project and portfolio..." class="form-control"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-purple btn-block" id="form-submit-btn">
+                <span>Send Message to Nandini</span>
+                <i class="fa-regular fa-paper-plane"></i>
+              </button>
+
+              <div class="form-alert" id="form-alert"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-bracket">&lt;</span><span class="logo-name">Nandini</span><span class="logo-accent">.dev</span><span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-desc">Crafted with HTML, CSS &amp; JavaScript by Nandini Patil &bull; 2nd Year B.Tech CSE (Data Science).</p>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://github.com/nandinipatil34" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/nandini-patil" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:nandinipatil@example.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="current-year">2026</span> Nandini Patil. Built with passion &amp; clean code.</p>
+    </div>
+  </footer>
+
+  <!-- Quick Project Modal -->
+  <div class="modal-backdrop" id="modal-backdrop" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
+      <h3 class="modal-heading" id="modal-heading">Project Details</h3>
+      <p class="modal-description" id="modal-description"></p>
+      <div class="modal-actions">
+        <a href="https://github.com/nandinipatil34" target="_blank" rel="noopener noreferrer" class="btn btn-purple btn-sm">
+          <i class="fa-brands fa-github"></i> View GitHub (nandinipatil34)
+        </a>
+        <button class="btn btn-outline btn-sm" id="modal-close-action">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Box -->
+  <div class="toast-box" id="toast-box"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
